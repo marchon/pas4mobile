@@ -1,0 +1,18 @@
+
+To install a static library - (Framework) into Lazarus for IOS 
+
+must copy the SDK into the directories for both the simulator and the real device:
+
+there is a script in the scripts directory for showing them - on my installation right now mine are
+
+Simulator:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator?.?.sdk/System/Library/Frameworks
+
+Real device:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS?.?.sdk/System/Library/Frameworks
+
+for you to find these yourself - use this script
+
+./scripts/ShowSDKPaths.sh
+
+
